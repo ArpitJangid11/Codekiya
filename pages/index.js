@@ -8,12 +8,12 @@ function HomePage() {
     return <>
       <div>Welcome to Next.js!</div>
       <div className={style.cardmanage}>
-        <Talkform/>
+        {/* <Talkform/> */}
         {/* <Joinform/> */}
         {/* <Partnerform/> */}
-        {/* <Card/>
+        <Card/>
         <Contactcard/>
-        <Contactcard/> */}
+        <Contactcard/>
       </div>
     </>
   }

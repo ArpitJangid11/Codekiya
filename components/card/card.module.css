@@ -1,9 +1,10 @@
 .container{
     height: 304px;
     width: 200px;
-    background-color : aquamarine;
+    background-color : rgb(255, 255, 255);
     padding: 29px;
     border-radius: 18px;
+    border: .1px solid rgb(100, 100, 100);
     align-items: center;
 }
 .head{
@@ -23,5 +24,6 @@
     font: 17px;
     font-family: 'Epilogue-Regular', sans-serif;
     margin: 0px 0px 10px;
+    text-align: center;
 
 }

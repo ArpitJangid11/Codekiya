@@ -1,12 +1,14 @@
 import React from "react";
 import style from "../card/card.module.css";
-
+import {AiOutlineSolution} from 'react-icons/ai'
 const card = () => {
   return (
     <>
       <div className={style.container}>
         <div className={style.head}>
-          <img className={style.icon} />#
+         <div className={style.icon}>
+          <AiOutlineSolution/>
+         </div>
           <h4 className={style.heading}>Problem solving & storytelling</h4>
         </div>
         <div className={style.paragraph}>

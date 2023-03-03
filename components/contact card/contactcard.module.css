@@ -2,11 +2,13 @@
     height: 304px;
     width: 200px;
     justify-content: center;
-    background-color : rgb(221, 83, 106);
+    background-color : rgb(255, 255, 255);
     padding: 29px;
     align-items: center;
-    border-radius: 18px;
+    border-radius: 38px;
     text-align: center;
+    border: .1px solid rgb(100, 100, 100);
+    box-shadow: 5px 5px 3px #f0a73a;
 }
 .paragraph{
     color: #293038;
@@ -18,7 +20,25 @@
 
 }
 .button{
-    padding: 9px 27px;
-    margin-top: 60px;
-    border-radius: 50px;
+    background: #f0a73a;
+    padding: 9px 15px;
+    color: #303030;
+    outline: none;
+    border: none;
+    border-radius: 34px;
+    font-size: 18px;
+    font-family: 'Crayone';
+    letter-spacing: 1px;
+    width: 200px;
+    /* display: block; */
+    font-weight: 400;
+    margin-top: 40px;
+    box-shadow: 5px 5px 3px #646464;
+}
+.button:hover{
+    background: rgb(77, 202, 77);
+    transition: .3s ease-in-out;
+}
+.trainer{
+    padding-top: 17px;
 }
