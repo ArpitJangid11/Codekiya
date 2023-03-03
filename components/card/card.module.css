@@ -1,0 +1,27 @@
+.container{
+    height: 304px;
+    width: 200px;
+    background-color : aquamarine;
+    padding: 29px;
+    border-radius: 18px;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.heading{
+    color: #293038;
+    font: 21px ;
+    font-family: 'Epilogue-Regular', sans-serif;
+    margin: 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
+}
+.paragraph{
+    color: #293038;
+    font: 17px;
+    font-family: 'Epilogue-Regular', sans-serif;
+    margin: 0px 0px 10px;
+
+}
