@@ -1,26 +1,44 @@
 .container{
       height: 500px;
-
+      text-align: center;
       background-color: rgb(252, 252, 252);
       padding: 10px;
-      text-align: center;
       border-radius: 18px;
       box-shadow: 5px 20px 50px #000;
+    }
+.cancel{
+    text-align: right;
+    padding-right: 15px;
+    color: rgb(128, 125, 125);
+
+}
+.cancel:hover{
+    color: #000000;
 }
 .tags{
-    display: flex;
-    flex-direction: column;
+
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-left: 7px;
+padding-right: 7px;
+
 }
 .input{
-    padding: 13px 100px;
+    padding: 14px 13px;
     margin-top: 15px;
+    background: #e0dbdb;
     border-radius: 18px;
-    text-align: center;
+    text-align: left;
+    border: none;
+    outline: none;
 }
 .button{
-    background: #2ae049;
-    padding: 9px 27px;
+    background: #f0a73a;
+    padding: 9px 25%;
     color: #303030;
+    outline: none;
+    border: none;
     border-radius: 34px;
     font-size: 23px;
     font-family: 'Crayone';
@@ -30,4 +48,11 @@
     font-weight: 600;
     margin-top: 40px;
     box-shadow: 5px 5px 3px #646464;
+}
+.button:hover{
+    background: rgb(77, 202, 77);
+    transition: .3s ease-in-out;
+}
+.trainer{
+    padding-top: 17px;
 }
