@@ -1,11 +1,12 @@
 .container{
-    height: 304px;
+    height: fit-content;
     width: 200px;
     background-color : rgb(255, 255, 255);
     padding: 29px;
     border-radius: 18px;
     border: .1px solid rgb(100, 100, 100);
     align-items: center;
+    margin-bottom: 50px;
 }
 .head{
     display: flex;
