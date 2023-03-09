@@ -1,10 +1,14 @@
 import React from 'react'
+import style from "../about/about.module.css"
 
 const about = () => {
   return (
-    <div>
-      About us
+    <>
+    <div className={style.aboutpage}>
+        
+
     </div>
+    </>
   )
 }
 
