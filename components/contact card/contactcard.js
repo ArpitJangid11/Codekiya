@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import React from 'react'
 import style from '../contact card/contactcard.module.css'
+
 const contactcard = (props) => {
   return (
     <>
@@ -12,7 +14,9 @@ const contactcard = (props) => {
            {props.contactParagraph2}
            <br></br>
            </div>
-           <button className={style.button}>{props.contactButton}</button>
+           <Link href={`${props.formLink}`}>
+           <button className={style.button} >{props.contactButton}</button>
+           </Link>
         </div>
     </>
   )
