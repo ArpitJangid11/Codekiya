@@ -1,18 +1,18 @@
 import React from 'react'
 import style from '../contact card/contactcard.module.css'
-const contactcard = () => {
+const contactcard = (props) => {
   return (
     <>
         <div className={style.container}>
           
            <div className={style.paragraph}>
-           Are you an Institute teaching Data Science & AI? 
+            {props.contactParagraph1}
            </div>
            <div className={style.paragraph}>
-           While you are building their Fundamentals, We can train your students to be industry ready 
+           {props.contactParagraph2}
            <br></br>
            </div>
-           <button className={style.button}>Join CodeKiya</button>
+           <button className={style.button}>{props.contactButton}</button>
         </div>
     </>
   )

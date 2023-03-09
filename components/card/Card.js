@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../card/card.module.css";
 import {AiOutlineSolution} from 'react-icons/ai'
-const card = () => {
+const card = (props) => {
   return (
     <>
       <div className={style.container}>
@@ -9,12 +9,10 @@ const card = () => {
          <div className={style.icon}>
           <AiOutlineSolution/>
          </div>
-          <h4 className={style.heading}>Problem solving & storytelling</h4>
+          <h4 className={style.heading}>{props.cardHeading}</h4>
         </div>
         <div className={style.paragraph}>
-          Great data professionals are not just good executioners, but also
-          great problem solvers and story tellers. Stand out, as we train you to
-          build that skill too!
+          {props.cardParagraph}     
         </div>
       </div>
     </>
