@@ -25,7 +25,7 @@ function HomePage(props) {
       <div className={style.secondsection}>
         <div className={style.heading}>
           <h1>Why CodeKiya</h1>
-          <p>Prepare yorself</p>
+          <p>Prepare Yourself</p>
         </div>
         <div className={style.cards}>
           <div className={style.row}>
